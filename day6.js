@@ -2,7 +2,7 @@ alert (`أهلا بك في موقعي الذي سيحسب درجاتك`)
 let grade = prompt (`اكتب درجاتك بالأرقام`)
 
 if ( grade <=  90 && grade >= 100 ) 
-console.log (`لقد حصلت على امتياز`)
+console.log (`%cلقد حصلت على امتياز` `color:blue`)
 else if (grade <= 90 && grade <=80 )
 consolw.log (`لقد حصلت على جيد جدا `)
 else if (grade <=  80 && grade <=70 )
@@ -13,3 +13,4 @@ else if (grade <= 60 && grade <=50 )
 consolw.log (`لقد حصلت على ضعيف `)
 else if (grade <50 )
 console.log (راسب)
+// comment for bouns
